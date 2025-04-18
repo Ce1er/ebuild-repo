@@ -46,7 +46,7 @@ inherit cargo
 DESCRIPTION="A simple light-weight terminal snake game"
 HOMEPAGE="https://github.com/PonasKovas/snake"
 SRC_URI="
-	https://github.com/PonasKovas/snake/archive/refs/tags/0.3.2.tar.gz
+	https://github.com/PonasKovas/snake/archive/refs/tags/{PV}.tar.gz
 	${CARGO_CRATE_URIS}
 "
 
@@ -60,9 +60,6 @@ IUSE="+bell"
 # Chosen based on first version released after snake. Older versions may work.
 # TODO: find actual required version with cargo-msrv
 RUST_MIN_VERSION="1.70.0"
-DEPEND=""
-RDEPEND="${DEPEND}"
-BDEPEND=""
 
 PATCHES=( "${FILESDIR}/snake-0.3.2-unused-import.patch" )
 
