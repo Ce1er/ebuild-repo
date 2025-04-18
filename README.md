@@ -7,7 +7,7 @@ I try to write them well but
 
 ### 1. Add the overlay to Portage
 
-```toml
+```ini
 [celer]
 location = /var/db/repos/celer
 sync-type = git
