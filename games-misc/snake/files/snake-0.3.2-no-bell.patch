@@ -1,0 +1,12 @@
+diff --git a/src/main.rs b/src/main.rs
+index 59d67fe..142aaf3 100644
+--- a/src/main.rs
++++ b/src/main.rs
+@@ -286,7 +286,6 @@ impl Game {
+ 
+         // See if the snake crashed
+         if self.snake.parts.contains(&new_head_pos) {
+-            print!("{}", 7 as char);
+             return Move::Crash;
+         }
+ 
