@@ -7,11 +7,25 @@ I try to write them well but
 
 ### 1. Add the overlay to Portage
 
+Install git
+
+```
+root # emerge --ask dev-vcs/git
+```
+
+#### Method 1:
+
 ```ini
 [celer]
 location = /var/db/repos/celer
 sync-type = git
 sync-uri = https://github.com/Ce1er/ebuild-repo.git
+```
+
+#### Method 2:
+
+```
+root # eselect repository add celer git https://github.com/Ce1er/ebuild-repo.git
 ```
 
 ### 2. Installing packages
