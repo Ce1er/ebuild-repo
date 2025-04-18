@@ -46,7 +46,7 @@ inherit cargo
 DESCRIPTION="A simple light-weight terminal snake game"
 HOMEPAGE="https://github.com/PonasKovas/snake"
 SRC_URI="
-	https://github.com/PonasKovas/snake/archive/refs/tags/{PV}.tar.gz
+	https://github.com/PonasKovas/snake/archive/refs/tags/${PV}.tar.gz
 	${CARGO_CRATE_URIS}
 "
 
