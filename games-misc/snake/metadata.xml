@@ -7,4 +7,10 @@
 	<use>
 		<flag name="bell">Play terminal bell upon death. </flag>
 	</use>
+	<upstream>
+		<changelog>https://github.com/PonasKovas/snake/releases</changelog>
+		<doc>https://github.com/PonasKovas/snake/blob/master/README.md</doc>
+		<bugs-to>https://github.com/PonasKovas/snake/issues</bugs-to>
+		<remote-id type="github">PonasKovas/snake</remote-id>
+	</upstream>
 </pkgmetadata>

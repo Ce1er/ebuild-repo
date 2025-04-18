@@ -52,7 +52,7 @@ SRC_URI="
 
 LICENSE="MIT"
 # Dependent crate licenses
-LICENSE+=" Apache-2.0-with-LLVM-exceptions MIT"
+LICENSE+=" Apache-2.0-with-LLVM-exceptions" # (Also MIT)
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE="+bell"
