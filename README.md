@@ -1,7 +1,6 @@
 # My personal Gentoo Overlay
 
 Contains .ebuild files for packages I use.
-I try to write them well but
 
 ## Installation
 
